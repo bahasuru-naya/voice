@@ -1,6 +1,6 @@
 # Initialize the recognizer
 r = sr.Recognizer()
-# Function to convert text to
+
 # speech
 def SpeakText(command):
     # Initialize the engine
@@ -31,7 +31,8 @@ while (1):
 
             print("Did you say ", MyText)
             SpeakText(MyText)
-                except sr.RequestError as e:
+            
+    except sr.RequestError as e:
         print("Could not request results; {0}".format(e))
 
     except sr.UnknownValueError:
