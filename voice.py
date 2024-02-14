@@ -1,7 +1,6 @@
 # Initialize the recognizer
 r = sr.Recognizer()
 # Function to convert text to
-# speech
 def SpeakText(command):
     # Initialize the engine
     engine = pyttsx3.init()
@@ -11,7 +10,7 @@ def SpeakText(command):
 while (1):
 
     # Exception handling to handle
-    # exceptions at the runtime
+
     try:
 
         # use the microphone as source for input.
