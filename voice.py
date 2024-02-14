@@ -11,6 +11,7 @@ def SpeakText(command):
 while (1):
 
    
+
     try:
 
         # use the microphone as source for input.
